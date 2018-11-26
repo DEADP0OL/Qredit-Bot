@@ -1,0 +1,14 @@
+{
+    "apinode":"http://127.0.0.1:4101/",
+    "corenodes":[
+            "http://127.0.0.1:4101/",
+            "http://52.42.208.237:4101/",
+            "http://136.144.215.24:4101/"
+            ],
+    "port":"4101",
+    "channels":[
+            "qredit-bot"
+            ],
+    "delegatecsv":"files/mainnet-delegates.csv",
+    "snapshoturl": "http://snapshots.lwf.io:4444/info/mainnet"
+}
