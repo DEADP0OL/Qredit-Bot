@@ -11,9 +11,9 @@ A set of algorithms to analyze the Qredit blockchain and provide Discord message
 
 ## Responses
 
-- **delegate** ([*username*] or [*rank*]) - Provides information of a delegate. Defaults to rank 201.
-- **rednodes** (*mainnet*) - Lists delegates that are currently missing blocks. Defaults to mainnet.
-- **height** (*mainnet*) - Provides the current height accross mainnet or testnet nodes. Defaults to mainnet.
+- **delegate** ([*username*] or [*rank*]) - Provides information of a delegate. Defaults to rank 51.
+- **rednodes** (*mainnet*) - Lists delegates that are currently missing blocks.
+- **height** (*mainnet*) - Provides the current height accross mainnet or testnet nodes.
 
 ## Installation
 
