@@ -1,6 +1,6 @@
 # DiscordBot API Scripts for Delegate and Voter Messages
 
-A set of algorithms to analyze the LWF blockchain and provide Discord messages.
+A set of algorithms to analyze the Qredit blockchain and provide Discord messages.
 
 ## Notifications
 
@@ -11,20 +11,17 @@ A set of algorithms to analyze the LWF blockchain and provide Discord messages.
 
 ## Responses
 
-- **info** ([*subcommand*]) - Returns useful information.
-- **price** ([*coin name*]) ([*currency*]) - Retrieves price data for the specified coin. Defaults to LWF and USD.
 - **delegate** ([*username*] or [*rank*]) - Provides information of a delegate. Defaults to rank 201.
-- **rednodes** (*mainnet/testnet*) - Lists delegates that are currently missing blocks. Defaults to mainnet.
-- **snapshot** (*mainnet/testnet*) - Show checksum for latest snapshot. Defaults to mainnet.
-- **height** (*mainnet/testnet*) - Provides the current height accross mainnet or testnet nodes. Defaults to mainnet.
+- **rednodes** (*mainnet*) - Lists delegates that are currently missing blocks. Defaults to mainnet.
+- **height** (*mainnet*) - Provides the current height accross mainnet or testnet nodes. Defaults to mainnet.
 
 ## Installation
 
 Linux Ubuntu 16.10 and greater
 
-```git clone https://github.com/DEADP0OL/LWF-DiscordBot```
+```git clone https://github.com/DEADP0OL/Qredit-Bot```
 
-```cd LWF-DiscordBot```
+```cd Qredit-Bot```
 
 ```sudo apt-get install python3-pip```
 
@@ -62,14 +59,14 @@ Edit the active config file.
 
 Start the python script.
 
-```cd LWF-DiscordBot```
+```cd Qredit-Bot```
 
-```./lwf-discordbot.py```
+```./discordbot.py```
 
 To keep the python script running after closing the terminal run the following command.
 
-```nohup ./lwf-discordbot.sh &```
+```nohup ./discordbot.sh &```
 
 To end the python script run the following command.
 
-```pkill -f lwf-discordbot```
+```pkill -f discordbot```
