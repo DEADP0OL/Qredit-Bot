@@ -2,18 +2,17 @@
     "apitoken":"xoxb-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "blockinterval":1500000,
     "minmissedblocks":2,
-    "numdelegates":201,
-    "notificationmins":15,
+    "numdelegates":51,
+    "notificationmins":60,
     "commandprefix":"!",
-    "bot_server":"lwf.io",
+    "bot_server":"Qredit",
     "listen_channels":[
             "lwf_bot"
             ],
     "elevatedperms":[
-            "admin",
+            "administrators",
             "team managers",
             "moderator",
-            "lwf team",
             "dev's"
             ],
     "msglenlimit":1800,
