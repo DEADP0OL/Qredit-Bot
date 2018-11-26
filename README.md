@@ -31,6 +31,8 @@ Linux Ubuntu 16.10 and greater
 
 ```sudo pip3 install pandas```
 
+```sudo pip3 install packages```
+
 ```sudo pip3 install discord.py```
 
 ## Configuration
