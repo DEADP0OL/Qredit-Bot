@@ -61,11 +61,11 @@ Start the python script.
 
 ```cd Qredit-Bot```
 
-```./discordbot.py```
+```python3 discordbot.py```
 
 To keep the python script running after closing the terminal run the following command.
 
-```nohup ./discordbot.sh &```
+```nohup bash discordbot.sh &```
 
 To end the python script run the following command.
 
