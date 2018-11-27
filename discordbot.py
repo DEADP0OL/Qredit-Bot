@@ -52,12 +52,12 @@ async def help(ctx):
         return
     commands = {discordconfigs.get("commandprefix")+'help':"Describes the bot and it's available commands.",
                 #discordconfigs.get("commandprefix")+'info':"Useful resources. Try "+discordconfigs.get("commandprefix")+"info help",
-                discordconfigs.get("commandprefix")+'price (<coin name>) (<currency>)':'Retrieves price data for the specified coin. Defaults to LWF and USD.',
-                discordconfigs.get("commandprefix")+'delegate (<username> or <rank>)':'Provides information of a delegate. Defaults to rank 201.',
-                discordconfigs.get("commandprefix")+'rednodes (mainnet/testnet)':'Lists delegates that are currently missing blocks. Defaults to mainnet.',
+                #discordconfigs.get("commandprefix")+'price (<coin name>) (<currency>)':'Retrieves price data for the specified coin. Defaults to LWF and USD.',
+                discordconfigs.get("commandprefix")+'delegate (<username> or <rank>)':'Provides information of a delegate. Defaults to rank 51.',
+                discordconfigs.get("commandprefix")+'rednodes (mainnet)':'Lists delegates that are currently missing blocks.',
                 #discordconfigs.get("commandprefix")+'oldnodes':'Lists mainnet delegates that have not updated their nodes.',
                 #discordconfigs.get("commandprefix")+'snapshot (mainnet/testnet)':'Show checksum for latest snapshot. Defaults to mainnet.',
-                discordconfigs.get("commandprefix")+'height (mainnet/testnet)':'Provides the current height accross mainnet or testnet nodes. Defaults to mainnet.'
+                discordconfigs.get("commandprefix")+'height (mainnet)':'Provides the current height accross nodes.'
                 }
     description='Available commands include:'
     embed=discordembeddict(commands,title=description,exclude=[discordconfigs.get("commandprefix")+'help'],inline=False)
