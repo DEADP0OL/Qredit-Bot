@@ -353,7 +353,7 @@ async def testnet_loop():
         await asyncio.sleep(discordconfigs.get("notificationmins")*60)
 
 if __name__ == '__main__':
-    bot.loop.create_task(price_loop())
+    #bot.loop.create_task(price_loop())
     bot.loop.create_task(mainnet_loop())
     #bot.loop.create_task(testnet_loop())
     bot.run(discordconfigs.get("apitoken"))
